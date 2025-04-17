@@ -14,6 +14,19 @@ document.addEventListener("DOMContentLoaded", () => {
   document
     .getElementById("filter-topic")
     .addEventListener("change", updateDisplay);
+
+  const toggleBtn = document.getElementById("toggle-dark-mode");
+
+  function applyDarkModePreference(isDark) {
+    document.body.classList.toggle("dark", isDark);
+    toggleBtn.textContent = isDark ? "☀️ Light Mode" : "🌙 Dark Mode";
+    localStorage.setItem("darkMode", isDark);
+  }
+
+  toggleBtn.addEventListener("click", () => {
+    const isDark = !document.body.classList.contains("dark");
+    applyDarkModePreference(isDark);
+  });
 });
 
 // Entry point: displays header, dropdown, and topic/program listings
@@ -58,9 +71,7 @@ function displayEventHeader(event) {
               event.start_time,
               event.end_time
             )}</div>
-            <div class="event-meta">ID: ${event.id} | Type: ${
-    event.type === "U" ? "Undergraduate" : "Postgraduate"
-  }</div>
+            ${event.type === "U" ? "Undergraduate" : "Postgraduate"}</div>
         </div>
     `;
 }

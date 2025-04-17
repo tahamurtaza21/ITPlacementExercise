@@ -213,3 +213,46 @@ label {
   flex: 1; /* Allow text to take remaining space */
   word-break: break-word;
 }
+
+body.dark {
+  background-color: #121212;
+  color: #eee;
+}
+body.dark .container {
+  background-color: #1e1e1e;
+  color: #eee;
+}
+body.dark .controls {
+  background-color: #2a2a2a;
+}
+body.dark input,
+body.dark select {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+}
+body.dark .program-card {
+  background-color: #2a2a2a;
+  border-color: #444;
+}
+body.dark .topic-title,
+body.dark .event-date,
+body.dark .program-title,
+body.dark .program-time {
+  color: #f5f5f5;
+}
+body.dark .program-location {
+  color: #79b8ff;
+}
+body.dark .collapse-toggle {
+  color: #ccc;
+}
+
+body,
+.container,
+.program-card,
+.controls,
+input,
+select {
+  transition: background-color 0.3s, color 0.3s;
+}
