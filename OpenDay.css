@@ -20,10 +20,44 @@ h2 {
 }
 .event-header {
   display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 20px;
+  flex-wrap: wrap;
   margin-bottom: 30px;
 }
+
+@media (max-width: 768px) {
+  .event-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .event-header img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+
+  .event-header-info {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  #toggle-dark-mode {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+}
+
+.event-header-info {
+  flex: 1;
+  padding-top: 5px;
+}
+
 .event-header img {
   max-width: 300px;
   border-radius: 5px;
