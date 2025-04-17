@@ -1,3 +1,5 @@
+// Wait until DOM is fully loaded before initializing
+// Attach event listeners for search/filter and dark mode toggle
 document.addEventListener("DOMContentLoaded", () => {
   if (openDayData) initialize();
 
@@ -6,8 +8,9 @@ document.addEventListener("DOMContentLoaded", () => {
     .getElementById("filter-topic")
     .addEventListener("change", updateDisplay);
 
-  // Dark mode toggle
   const toggleBtn = document.getElementById("toggle-dark-mode");
+
+  // Applies dark mode settings and saves preference in local storage
   function applyDarkModePreference(isDark) {
     document.body.classList.toggle("dark", isDark);
     toggleBtn.textContent = isDark ? "☀️ Light Mode" : "🌙 Dark Mode";
@@ -19,52 +22,53 @@ document.addEventListener("DOMContentLoaded", () => {
     applyDarkModePreference(isDark);
   });
 
-  // Load saved preference
   const savedPref = localStorage.getItem("darkMode") === "true";
   applyDarkModePreference(savedPref);
 });
 
+// Initializes header, dropdowns, and program list
 function initialize() {
   displayEventHeader(openDayData);
   populateTopicDropdown(openDayData.topics);
   displayFilteredTopicsAndPrograms(openDayData.topics);
 }
 
+// Format a date-time string into a human-readable time
 function formatDateTime(dateTimeStr) {
   const date = new Date(dateTimeStr);
   return date.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
 }
 
+// Format event start and end range in a readable way
 function formatDateRange(startStr, endStr) {
   const start = new Date(startStr);
   const end = new Date(endStr);
-  const options = {
+  return `${start.toLocaleDateString("en-GB", {
     weekday: "long",
     year: "numeric",
     month: "long",
     day: "numeric",
-  };
-  return `${start.toLocaleDateString("en-GB", options)} from ${formatDateTime(
-    startStr
-  )} to ${formatDateTime(endStr)}`;
+  })} from ${formatDateTime(startStr)} to ${formatDateTime(endStr)}`;
 }
 
+// Render the top banner with event metadata
 function displayEventHeader(event) {
   const headerContainer = document.getElementById("event-header");
   headerContainer.innerHTML = `
-    <img src="${event.cover_image}" alt="${event.description}">
-    <div class="event-header-info">
-      <h1>${event.description}</h1>
-      <div class="event-date">${formatDateRange(
-        event.start_time,
-        event.end_time
-      )}</div>
-      <div class="event-meta">ID: ${event.id} | Type: ${
-    event.type === "U" ? "Undergraduate" : "Postgraduate"
-  }</div>
-    </div>`;
+    <figure style="display:flex">
+      <img src="${event.cover_image}" alt="Event: ${event.description}">
+      <figcaption class="event-header-info" style="padding:20px">
+        <h1>${event.description}</h1>
+        <div class="event-date">${formatDateRange(
+          event.start_time,
+          event.end_time
+        )}</div>
+        ${event.type === "U" ? "Undergraduate" : "Postgraduate"}</div>
+      </figcaption>
+    </figure>`;
 }
 
+// Populate dropdown menu with all available topics
 function populateTopicDropdown(topics) {
   const topicSelect = document.getElementById("filter-topic");
   topics.forEach((topic) => {
@@ -75,28 +79,29 @@ function populateTopicDropdown(topics) {
   });
 }
 
+// Generate HTML for a single program card
 function createProgramCard(program) {
   return `
-    <div class="program-card" data-program-id="${program.id}">
-      <div class="program-type" style="background-color: ${
-        program.programType.type_colour
-      }; color: white;">
-        ${program.programType.type}
-      </div>
-      <div class="program-title">${program.title}</div>
-      <div class="program-time">
-        ${formatDateTime(program.start_time)} - ${formatDateTime(
-    program.end_time
-  )}
-      </div>
-      <div class="program-location">${generateLocationLinks(program)}</div>
-      ${generateDescriptionToggle(program)}
-      <div class="location-details"><strong>School:</strong> ${
-        program.school.name
-      }</div>
-    </div>`;
+    <article class="program-card" data-program-id="${program.id}">
+      <header>
+        <div class="program-type" style="background-color: ${
+          program.programType.type_colour
+        }; color: white;">
+          ${program.programType.type}
+        </div>
+        <h3 class="program-title">${program.title}</h3>
+      </header>
+      <section>
+        <div class="program-time">${formatDateTime(
+          program.start_time
+        )} - ${formatDateTime(program.end_time)}</div>
+        <div class="program-location">${generateLocationLinks(program)}</div>
+        ${generateDescriptionToggle(program)}
+      </section>
+    </article>`;
 }
 
+// Collapse/expand functionality for topics
 window.toggleTopic = function (topicId) {
   const topicContent = document.getElementById(`topic-content-${topicId}`);
   topicContent.classList.toggle("hidden");
@@ -105,6 +110,7 @@ window.toggleTopic = function (topicId) {
   toggle.textContent = topicContent.classList.contains("hidden") ? "▶" : "▼";
 };
 
+// Organize programs under their topics, filtered or not
 function buildTopicProgramMap(topics, filteredPrograms) {
   const map = new Map();
   if (filteredPrograms) {
@@ -118,19 +124,21 @@ function buildTopicProgramMap(topics, filteredPrograms) {
   return map;
 }
 
+// Build the topic element and its nested program cards
 function createTopicElement(topic, programsForTopic) {
-  const topicElement = document.createElement("div");
+  const topicElement = document.createElement("section");
   topicElement.className = "topic";
   topicElement.dataset.topicId = topic.id;
-
   topicElement.innerHTML = `
-    <div class="topic-header" onclick="toggleTopic(${topic.id})">
-      <img src="${topic.cover_image}" alt="${topic.name}">
-      <div class="topic-title">${topic.name}</div>
+    <header class="topic-header" onclick="toggleTopic(${
+      topic.id
+    })" aria-controls="topic-content-${topic.id}" aria-expanded="true">
+      <img src="${topic.cover_image}" alt="Topic image: ${topic.name}">
+      <h2 class="topic-title">${topic.name}</h2>
       <div class="collapse-toggle">▼</div>
-    </div>
-    <div id="topic-content-${topic.id}" class="topic-content">
-      <div class="topic-description">${topic.description}</div>
+    </header>
+    <section id="topic-content-${topic.id}" class="topic-content">
+      <p class="topic-description">${topic.description}</p>
       <div id="programs-container-${topic.id}" class="programs-container">
         ${
           programsForTopic.length === 0
@@ -138,27 +146,27 @@ function createTopicElement(topic, programsForTopic) {
             : programsForTopic.map(createProgramCard).join("")
         }
       </div>
-    </div>`;
+    </section>`;
   return topicElement;
 }
 
+// Display programs and topics based on current filters
 function displayFilteredTopicsAndPrograms(topics, filteredPrograms = null) {
   const container = document.getElementById("topics-container");
   container.innerHTML = "";
-
   const topicProgramMap = buildTopicProgramMap(topics, filteredPrograms);
   topics.forEach((topic) => {
     const programs = topicProgramMap.get(topic.id) || [];
     if (filteredPrograms !== null && programs.length === 0) return;
     container.appendChild(createTopicElement(topic, programs));
   });
-
   if (container.children.length === 0) {
     container.innerHTML =
       '<div class="no-programs">No programs match your search criteria.</div>';
   }
 }
 
+// Flatten all programs across topics for easy filtering
 function getAllPrograms(topics) {
   return topics.flatMap((topic) =>
     topic.programs.map((p) => ({
@@ -169,6 +177,7 @@ function getAllPrograms(topics) {
   );
 }
 
+// Filter based on search term and topic dropdown
 function filterPrograms(allPrograms, searchTerm, topicId) {
   const search = searchTerm.toLowerCase();
   return allPrograms.filter((p) => {
@@ -186,6 +195,7 @@ function filterPrograms(allPrograms, searchTerm, topicId) {
   });
 }
 
+// Refresh program list on input/filter change
 function updateDisplay() {
   const searchTerm = document.getElementById("search").value;
   const topicId = document.getElementById("filter-topic").value;
@@ -197,6 +207,7 @@ function updateDisplay() {
   displayFilteredTopicsAndPrograms(openDayData.topics, filtered);
 }
 
+// Generates location info and Google Maps link
 function generateLocationLinks(program) {
   return `
     <a href="${
@@ -211,6 +222,7 @@ function generateLocationLinks(program) {
     </a>`;
 }
 
+// Toggle between short and long description
 function toggleDescription(header) {
   const container = header.closest(".program-description");
   const arrow = header.querySelector(".collapse-toggle");
@@ -223,13 +235,14 @@ function toggleDescription(header) {
   longDesc.classList.toggle("hidden", showingLong);
 }
 
+// Generate HTML structure for expandable description
 function generateDescriptionToggle(program) {
   return `
-    <div class="program-description">
-      <div class="description-header" onclick="toggleDescription(this)" style="cursor: pointer;">
+    <section class="program-description">
+      <header class="description-header" onclick="toggleDescription(this)" role="button" aria-expanded="false" aria-controls="desc-${program.id}" tabindex="0">
         <span class="collapse-toggle">▶</span>
         <span class="short-description">${program.description_short}</span>
-      </div>
-      <div class="long-description hidden">${program.description}</div>
-    </div>`;
+      </header>
+      <div id="desc-${program.id}" class="long-description hidden">${program.description}</div>
+    </section>`;
 }
