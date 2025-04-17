@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Head contains meta, styles and title -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cardiff University Open Day Information</title>
+    <link rel="stylesheet" href="OpenDay.css" />
+  </head>
+  <body>
+    <!-- Body begins: branding, controls, and content -->
+    <!-- Cardiff University Branding -->
+    <header
+      class="branding"
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+      "
+    >
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Cardiff_University_%28logo%29.svg/2131px-Cardiff_University_%28logo%29.svg.png"
+        alt="Cardiff University Logo"
+        class="logo"
+        style="max-width: 135px; height: auto"
+      />
+    </header>
+
+    <!-- Optional loading animation -->
+    <div id="loading" class="loading-overlay hidden">
+      <div class="spinner"></div>
+      <!-- Spinner shown while loading JSON + JS -->
+    </div>
+    <div class="container">
+      <!-- Main container wraps header, controls and topics -->
+      <!-- Dynamic header section populated by JS -->
+      <div id="event-header" class="event-header"></div>
+
+      <!-- Search and filter controls -->
+      <div class="controls">
+        <div class="search-container">
+          <label for="search">Search Programs:</label>
+          <input
+            type="text"
+            id="search"
+            placeholder="Search by school name, title or location"
+          />
+        </div>
+
+        <div class="filter-container">
+          <label for="filter-topic">Filter by Topic:</label>
+          <select id="filter-topic">
+            <option value="all">All Topics</option>
+            <!-- Topics will be populated here dynamically -->
+          </select>
+        </div>
+      </div>
+
+      <!-- All topic and program data displayed here -->
+      <div id="topics-container" class="topics-container"></div>
+    </div>
+
+    <!-- Load JSON and JS after page content -->
+    <script>
+      // Show loading animation until data is processed
+      document.getElementById("loading").classList.remove("hidden");
+      window.addEventListener("load", () => {
+        setTimeout(
+          () => document.getElementById("loading").classList.add("hidden"),
+          800
+        );
+      });
+    </script>
+    <script src="OpenDay-Data.js"></script>
+    <script src="OpenDay-Loading.js"></script>
+  </body>
+</html>
