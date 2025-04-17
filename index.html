@@ -26,7 +26,6 @@
         style="max-width: 135px; height: auto"
         loading="lazy"
       />
-
       <button
         id="toggle-dark-mode"
         style="
@@ -50,11 +49,9 @@
       <div id="loading" class="loading-overlay hidden" aria-live="polite">
         <div class="spinner" aria-hidden="true"></div>
       </div>
-
       <div class="container">
         <!-- Dynamic header populated by JS -->
         <div id="event-header" class="event-header"></div>
-
         <!-- Search and filter controls -->
         <section class="controls" aria-label="Search and filter programmes">
           <div class="search-container">
@@ -65,15 +62,19 @@
               placeholder="Search by school name, title or location"
             />
           </div>
-
           <div class="filter-container">
             <label for="filter-topic">Filter by Topic:</label>
             <select id="filter-topic">
               <option value="all">All Topics</option>
             </select>
           </div>
+          <div class="filter-container">
+            <label for="filter-program-type">Filter by Program Type:</label>
+            <select id="filter-program-type">
+              <option value="all">All Types</option>
+            </select>
+          </div>
         </section>
-
         <!-- Programmes injected here -->
         <section
           id="topics-container"
@@ -83,7 +84,6 @@
         ></section>
       </div>
     </main>
-
     <!-- Scripts -->
     <script>
       document.getElementById("loading").classList.remove("hidden");

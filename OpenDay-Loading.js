@@ -7,6 +7,9 @@ document.addEventListener("DOMContentLoaded", () => {
   document
     .getElementById("filter-topic")
     .addEventListener("change", updateDisplay);
+  document
+    .getElementById("filter-program-type")
+    .addEventListener("change", updateDisplay);
 
   const toggleBtn = document.getElementById("toggle-dark-mode");
 
@@ -30,6 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
 function initialize() {
   displayEventHeader(openDayData);
   populateTopicDropdown(openDayData.topics);
+  populateProgramTypeDropdown(openDayData.topics);
   displayFilteredTopicsAndPrograms(openDayData.topics);
 }
 
@@ -76,6 +80,24 @@ function populateTopicDropdown(topics) {
     option.value = topic.id;
     option.textContent = topic.name;
     topicSelect.appendChild(option);
+  });
+}
+
+function populateProgramTypeDropdown(topics) {
+  const typeSelect = document.getElementById("filter-program-type");
+  const types = new Map();
+
+  topics.forEach((topic) =>
+    topic.programs.forEach((program) =>
+      types.set(program.programType.id, program.programType.type)
+    )
+  );
+
+  types.forEach((type, id) => {
+    const option = document.createElement("option");
+    option.value = id;
+    option.textContent = type;
+    typeSelect.appendChild(option);
   });
 }
 
@@ -178,10 +200,12 @@ function getAllPrograms(topics) {
 }
 
 // Filter based on search term and topic dropdown
-function filterPrograms(allPrograms, searchTerm, topicId) {
+function filterPrograms(allPrograms, searchTerm, topicId, programTypeId) {
   const search = searchTerm.toLowerCase();
   return allPrograms.filter((p) => {
     if (topicId !== "all" && p.topicId !== parseInt(topicId)) return false;
+    if (programTypeId !== "all" && p.programType.id !== parseInt(programTypeId))
+      return false;
     if (!search) return true;
     const schoolName = p.school?.name?.toLowerCase() || "";
     return (
@@ -199,11 +223,14 @@ function filterPrograms(allPrograms, searchTerm, topicId) {
 function updateDisplay() {
   const searchTerm = document.getElementById("search").value;
   const topicId = document.getElementById("filter-topic").value;
+  const programTypeId = document.getElementById("filter-program-type").value;
+
   const allPrograms = getAllPrograms(openDayData.topics);
   const filtered =
-    searchTerm || topicId !== "all"
-      ? filterPrograms(allPrograms, searchTerm, topicId)
+    searchTerm || topicId !== "all" || programTypeId !== "all"
+      ? filterPrograms(allPrograms, searchTerm, topicId, programTypeId)
       : allPrograms;
+
   displayFilteredTopicsAndPrograms(openDayData.topics, filtered);
 }
 

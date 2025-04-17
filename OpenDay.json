@@ -43,10 +43,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -110,10 +107,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -177,10 +171,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -244,10 +235,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -320,9 +308,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -386,9 +372,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -452,9 +436,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -518,9 +500,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -584,9 +564,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -650,9 +628,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -716,9 +692,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -782,9 +756,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -857,10 +829,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -924,10 +893,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -991,10 +957,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              5
-            ],
+            "tags": [1, 5],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -1058,10 +1021,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -1125,10 +1085,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -1201,10 +1158,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -1268,10 +1222,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -1335,10 +1286,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -1402,10 +1350,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -1478,9 +1423,7 @@
             "accessible": 1,
             "parking": 1,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -1544,9 +1487,7 @@
             "accessible": 1,
             "parking": 1,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -1610,9 +1551,7 @@
             "accessible": 1,
             "parking": 1,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -1676,9 +1615,7 @@
             "accessible": 1,
             "parking": 1,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -1742,9 +1679,7 @@
             "accessible": 1,
             "parking": 1,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -1808,10 +1743,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -1875,9 +1807,7 @@
             "accessible": 1,
             "parking": 1,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -1950,9 +1880,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -2016,9 +1944,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -2082,11 +2008,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              "2",
-              "6",
-              "1"
-            ],
+            "tags": ["2", "6", "1"],
             "campus": {
               "id": 2,
               "title": "Heath Park Campus",
@@ -2150,9 +2072,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -2225,10 +2145,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -2292,10 +2209,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -2359,10 +2273,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -2426,10 +2337,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -2493,10 +2401,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -2560,10 +2465,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -2627,10 +2529,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -2694,10 +2593,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -2770,9 +2666,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -2836,9 +2730,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -2902,9 +2794,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -2968,9 +2858,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -3034,9 +2922,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -3100,9 +2986,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -3166,9 +3050,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -3232,9 +3114,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -3298,9 +3178,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -3364,9 +3242,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -3439,10 +3315,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              5
-            ],
+            "tags": [1, 5],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -3506,10 +3379,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              5
-            ],
+            "tags": [1, 5],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -3573,10 +3443,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              5
-            ],
+            "tags": [1, 5],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -3640,10 +3507,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              5
-            ],
+            "tags": [1, 5],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -3707,10 +3571,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              5
-            ],
+            "tags": [1, 5],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -3774,10 +3635,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              5
-            ],
+            "tags": [1, 5],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -3841,10 +3699,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              5
-            ],
+            "tags": [1, 5],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -3908,10 +3763,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              5
-            ],
+            "tags": [1, 5],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -3984,9 +3836,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -4044,10 +3894,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -4105,9 +3952,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -4165,9 +4010,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -4225,9 +4068,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -4285,10 +4126,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -4346,9 +4184,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              4
-            ],
+            "tags": [4],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -4406,9 +4242,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              4
-            ],
+            "tags": [4],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -4466,9 +4300,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 2,
               "title": "Heath Park Campus",
@@ -4584,9 +4416,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -4644,9 +4474,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -4710,10 +4538,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -4771,9 +4596,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -4831,9 +4654,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -4891,10 +4712,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -4952,10 +4770,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              14
-            ],
+            "tags": [1, 14],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -5013,10 +4828,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -5074,12 +4886,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2,
-              8,
-              14
-            ],
+            "tags": [1, 2, 8, 14],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -5195,9 +5002,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -5255,9 +5060,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -5315,10 +5118,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -5376,10 +5176,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -5495,10 +5292,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -5556,9 +5350,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -5616,10 +5408,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -5677,9 +5466,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -5743,10 +5530,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -5804,10 +5588,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -5865,9 +5646,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 2,
               "title": "Heath Park Campus",
@@ -5931,9 +5710,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -6049,10 +5826,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -6110,10 +5884,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -6171,9 +5942,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -6289,9 +6058,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 2,
               "title": "Heath Park Campus",
@@ -6422,10 +6189,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -6489,10 +6253,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -6556,10 +6317,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -6632,9 +6390,7 @@
             "accessible": 1,
             "parking": 1,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 4,
               "title": "Heath Park West Campus",
@@ -6698,9 +6454,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 2,
               "title": "Heath Park Campus",
@@ -6764,9 +6518,7 @@
             "accessible": 1,
             "parking": 1,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 4,
               "title": "Heath Park West Campus",
@@ -6830,9 +6582,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 2,
               "title": "Heath Park Campus",
@@ -6896,9 +6646,7 @@
             "accessible": 1,
             "parking": 1,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 4,
               "title": "Heath Park West Campus",
@@ -6962,9 +6710,7 @@
             "accessible": 1,
             "parking": 1,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 4,
               "title": "Heath Park West Campus",
@@ -7028,9 +6774,7 @@
             "accessible": 1,
             "parking": 1,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 4,
               "title": "Heath Park West Campus",
@@ -7094,9 +6838,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 2,
               "title": "Heath Park Campus",
@@ -7160,9 +6902,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 2,
               "title": "Heath Park Campus",
@@ -7226,9 +6966,7 @@
             "accessible": 1,
             "parking": 1,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 4,
               "title": "Heath Park West Campus",
@@ -7292,9 +7030,7 @@
             "accessible": 1,
             "parking": 1,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 4,
               "title": "Heath Park West Campus",
@@ -7358,9 +7094,7 @@
             "accessible": 1,
             "parking": 1,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 4,
               "title": "Heath Park West Campus",
@@ -7424,9 +7158,7 @@
             "accessible": 1,
             "parking": 1,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 4,
               "title": "Heath Park West Campus",
@@ -7490,9 +7222,7 @@
             "accessible": 1,
             "parking": 1,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 4,
               "title": "Heath Park West Campus",
@@ -7556,9 +7286,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 2,
               "title": "Heath Park Campus",
@@ -7622,9 +7350,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 2,
               "title": "Heath Park Campus",
@@ -7688,9 +7414,7 @@
             "accessible": 1,
             "parking": 1,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 4,
               "title": "Heath Park West Campus",
@@ -7754,9 +7478,7 @@
             "accessible": 1,
             "parking": 1,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 4,
               "title": "Heath Park West Campus",
@@ -7820,9 +7542,7 @@
             "accessible": 1,
             "parking": 1,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 4,
               "title": "Heath Park West Campus",
@@ -7886,9 +7606,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 2,
               "title": "Heath Park Campus",
@@ -7952,9 +7670,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 2,
               "title": "Heath Park Campus",
@@ -8018,9 +7734,7 @@
             "accessible": 1,
             "parking": 1,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 4,
               "title": "Heath Park West Campus",
@@ -8084,9 +7798,7 @@
             "accessible": 1,
             "parking": 1,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 4,
               "title": "Heath Park West Campus",
@@ -8150,9 +7862,7 @@
             "accessible": 1,
             "parking": 1,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 4,
               "title": "Heath Park West Campus",
@@ -8216,9 +7926,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 2,
               "title": "Heath Park Campus",
@@ -8285,10 +7993,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -8352,10 +8057,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -8419,10 +8121,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -8486,10 +8185,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -8553,10 +8249,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -8620,10 +8313,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -8687,10 +8377,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -8754,10 +8441,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -8821,10 +8505,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -8888,10 +8569,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -8964,9 +8642,7 @@
             "accessible": 0,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 5,
               "title": "Central Square",
@@ -9030,9 +8706,7 @@
             "accessible": 0,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 5,
               "title": "Central Square",
@@ -9096,9 +8770,7 @@
             "accessible": 0,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 5,
               "title": "Central Square",
@@ -9162,9 +8834,7 @@
             "accessible": 0,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 5,
               "title": "Central Square",
@@ -9228,9 +8898,7 @@
             "accessible": 0,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 5,
               "title": "Central Square",
@@ -9294,9 +8962,7 @@
             "accessible": 0,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 5,
               "title": "Central Square",
@@ -9360,9 +9026,7 @@
             "accessible": 0,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 5,
               "title": "Central Square",
@@ -9426,9 +9090,7 @@
             "accessible": 0,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 5,
               "title": "Central Square",
@@ -9501,9 +9163,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -9567,9 +9227,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -9633,9 +9291,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -9699,9 +9355,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -9765,9 +9419,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -9831,9 +9483,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -9897,9 +9547,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -9963,9 +9611,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -10038,9 +9684,7 @@
             "accessible": 1,
             "parking": 1,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -10104,9 +9748,7 @@
             "accessible": 1,
             "parking": 1,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -10170,9 +9812,7 @@
             "accessible": 1,
             "parking": 1,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -10245,9 +9885,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -10311,9 +9949,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 2,
               "title": "Heath Park Campus",
@@ -10377,9 +10013,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -10443,9 +10077,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 2,
               "title": "Heath Park Campus",
@@ -10509,9 +10141,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 2,
               "title": "Heath Park Campus",
@@ -10575,9 +10205,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -10641,9 +10269,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 2,
               "title": "Heath Park Campus",
@@ -10707,9 +10333,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 2,
               "title": "Heath Park Campus",
@@ -10773,9 +10397,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -10839,9 +10461,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              "1"
-            ],
+            "tags": ["1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -10905,9 +10525,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 2,
               "title": "Heath Park Campus",
@@ -10980,10 +10598,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -11047,10 +10662,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -11114,10 +10726,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -11181,10 +10790,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -11257,9 +10863,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -11323,9 +10927,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -11389,9 +10991,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -11455,9 +11055,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -11521,9 +11119,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -11596,10 +11192,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -11663,10 +11256,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -11730,10 +11320,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -11797,10 +11384,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -11864,10 +11448,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -11940,10 +11521,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              "2",
-              "1"
-            ],
+            "tags": ["2", "1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -12007,10 +11585,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              "2",
-              "1"
-            ],
+            "tags": ["2", "1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -12074,10 +11649,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              "2",
-              "1"
-            ],
+            "tags": ["2", "1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -12141,10 +11713,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              "2",
-              "1"
-            ],
+            "tags": ["2", "1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -12208,10 +11777,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              "2",
-              "1"
-            ],
+            "tags": ["2", "1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -12284,9 +11850,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -12350,9 +11914,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -12416,9 +11978,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -12491,9 +12051,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -12557,9 +12115,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -12623,9 +12179,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -12689,9 +12243,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -12755,9 +12307,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -12830,10 +12380,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -12897,10 +12444,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -12964,10 +12508,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -13031,10 +12572,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -13098,9 +12636,7 @@
             "accessible": 0,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -13164,9 +12700,7 @@
             "accessible": 0,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -13230,9 +12764,7 @@
             "accessible": 0,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -13296,10 +12828,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -13363,10 +12892,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -13430,10 +12956,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -13497,10 +13020,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -13564,9 +13084,7 @@
             "accessible": 0,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -13630,10 +13148,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -13697,10 +13212,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -13764,9 +13276,7 @@
             "accessible": 0,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -13830,9 +13340,7 @@
             "accessible": 0,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -13905,10 +13413,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -13972,10 +13477,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -14039,10 +13541,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -14115,11 +13614,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              "2",
-              "6",
-              "1"
-            ],
+            "tags": ["2", "6", "1"],
             "campus": {
               "id": 2,
               "title": "Heath Park Campus",
@@ -14177,9 +13672,7 @@
             "accessible": 0,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              2
-            ],
+            "tags": [2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -14243,9 +13736,7 @@
             "accessible": 0,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              2
-            ],
+            "tags": [2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -14309,9 +13800,7 @@
             "accessible": 0,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              2
-            ],
+            "tags": [2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -14369,9 +13858,7 @@
             "accessible": 0,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              2
-            ],
+            "tags": [2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -14429,9 +13916,7 @@
             "accessible": 0,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              2
-            ],
+            "tags": [2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -14489,9 +13974,7 @@
             "accessible": 0,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              2
-            ],
+            "tags": [2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -14558,10 +14041,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -14625,10 +14105,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -14692,10 +14169,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -14759,10 +14233,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -14826,10 +14297,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -14902,10 +14370,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              "3",
-              "1"
-            ],
+            "tags": ["3", "1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -14963,10 +14428,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              3
-            ],
+            "tags": [1, 3],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -15024,10 +14486,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              3
-            ],
+            "tags": [1, 3],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -15085,9 +14544,7 @@
             "accessible": 0,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              1
-            ],
+            "tags": [1],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -15154,10 +14611,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              5
-            ],
+            "tags": [1, 5],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -15215,10 +14669,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 0,
-            "tags": [
-              "5",
-              "1"
-            ],
+            "tags": ["5", "1"],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -15276,10 +14727,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -15337,10 +14785,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
@@ -15398,10 +14843,7 @@
             "accessible": 1,
             "parking": 0,
             "bike_parking": 1,
-            "tags": [
-              1,
-              2
-            ],
+            "tags": [1, 2],
             "campus": {
               "id": 1,
               "title": "Cathays Park Campus",
